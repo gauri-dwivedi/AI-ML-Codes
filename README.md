@@ -68,3 +68,38 @@ to a comparable scale.
 MinMaxScaler is useful when a fixed range is needed.
 StandardScaler is useful when data needs to be
 centered around mean 0 with standard deviation 1.
+
+## Linear Regression
+
+Linear Regression is a supervised machine learning algorithm used to predict continuous numerical values.
+
+### Dataset
+- Input Feature (X): Study Hours
+- Target (y): Marks
+
+### Steps Performed
+1. Created a dataset using Pandas.
+2. Separated input and target variables.
+3. Split data into training and testing sets.
+4. Trained a Linear Regression model.
+5. Predicted marks using test data.
+6. Evaluated the model using Mean Absolute Error (MAE).
+7. Calculated Slope and Intercept.
+8. Visualized the regression line using Matplotlib.
+
+### Linear Regression Equation
+
+y = mx + c
+
+For this practical:
+
+y = 10x + 20
+
+### Libraries Used
+- Pandas
+- Scikit-learn
+- Matplotlib
+
+### Practical Notebook
+`Linear_Regression_Practical.ipynb`
+
